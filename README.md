@@ -7,9 +7,9 @@ this is an android apk, dex and resources extractor! (lite version)
 * installed app list up.
 * extract apk, dex and resources. 
 
-    copy apk to download location.
-    listing manifest, dex & res/* (in apk) 
-    and save it to text file. (no zip file, because lite version)
+    1. copy apk to download location.
+    2. listing manifest, dex & res/* (in apk) 
+    3. and save it to text file. (no zip file, because lite version)
 
 ## Thanks to
 
