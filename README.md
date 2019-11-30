@@ -13,5 +13,7 @@ this is an android apk, dex and resources extractor! (lite version)
 ## Thanks to
 
 https://html5up.net 
+
 https://github.com/hsiafan/apk-parser 
+
 https://github.com/jaredrummler/APKParser 
