@@ -2,7 +2,7 @@
 
 this is an android apk, dex and resources extractor! (lite version)
 
-## Feature
+## Features
 
 * installed app list up.
 * extract apk, dex and resources. 
