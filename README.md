@@ -1,14 +1,14 @@
 # Captain APK
 
-this is an android apk, dex and resources extractor! (lite version)
+This is an Android APK, DEX and resources extractor! (lite version)
 
 ## Features
 
-* installed app list up.
-* extract apk, dex and resources. 
+* Installed app list up.
+* Extract APK, DEX and resources. 
 
-    - copy apk to download location.
-    - listing manifest, dex & res/* (in apk) 
+    - copy APK to download location.
+    - listing manifest, DEX & res/* (in APK) 
     - and save it to text file. (no zip file, because lite version)
 
 ## Thanks to
