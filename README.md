@@ -11,6 +11,8 @@ This is an Android APK, DEX and resources extractor! (lite version)
     - listing DEX, manifest & res/* (in APK) 
     - and save it to text file. (no zip file, because lite version)
 
+(Why don't you check up Release : Play Store [https://play.google.com/store/apps/details?id=com.cafewill.apk])
+
 ## Thanks to
 
 * https://html5up.net 
