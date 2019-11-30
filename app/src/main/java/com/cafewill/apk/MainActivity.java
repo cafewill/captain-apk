@@ -539,7 +539,7 @@ public class MainActivity extends AppCompatActivity
                         ZipFile zipFile = new ZipFile (source);
 
                         String saveAs = bundle + "_" + version + "_" + name;
-                        saveAs = saveAs.replaceAll("[:\\\\/*?|<>]", " ").replaceAll ("\\s+", "_");
+                        saveAs = saveAs.replaceAll ("[:\\\\/*?|<>]", " ").replaceAll ("\\s+", "_");
 
                         ///////////////////////
                         // copy source to target (apk)
@@ -593,7 +593,7 @@ public class MainActivity extends AppCompatActivity
                                         count++;
                                         int inter = 1; if (10 < total) inter = (int) (total / 10);
                                         if (10 < total && (0 == (int) (count % inter))) { sendNotification (name, total, count); }
-                                        fileOS.write (("(" + count + ") " + each + System.getProperty ("line.separator")).getBytes ());
+                                        fileOS.write (("(" + count + ") " + entry.getName ().trim () + System.getProperty ("line.separator")).getBytes ());
                                     }
                                 }
 
