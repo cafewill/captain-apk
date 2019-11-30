@@ -548,7 +548,7 @@ public class MainActivity extends AppCompatActivity
                         File target = new File (saveRoot, saveAs + ".apk"); FileUtils.copyFile (origin , target);
 
                         ///////////////////////
-                        // listing manifest & res/* (in apk)
+                        // listing dex, manifest & res/* (in apk)
                         ///////////////////////
 
                         int total = 0;
@@ -576,7 +576,7 @@ public class MainActivity extends AppCompatActivity
                                 sendNotification (name, total, count);
 
                                 ///////////////////////
-                                // because lite version (save text file, no zip file)
+                                // save to text file (no zip, because lite version)
                                 ///////////////////////
 
                                 FileOutputStream fileOS = new FileOutputStream (saveRoot + System.getProperty ("file.separator") + saveAs + "_meta.txt");
