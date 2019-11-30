@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">検索ワード</string>
+    <string name="message_quitback">もう一度押すと終了します</string>
+    <string name="message_download">ダウンロード...</string>
+    <string name="message_search_failed">検索結果がありません</string>
+    <string name="message_search_installed">全#NN#件をインストールしました</string>
+    <string name="message_permission_allowed">アクセス許可を有効にします</string>
+    <string name="message_permission_disallowed">アクセスを許可しない場合、ダウンロード等の操作を実行できません</string>
+    <string name="message_speech_not_supported">お使いのデバイスは音声入力をサポートしていません</string>
+</resources>

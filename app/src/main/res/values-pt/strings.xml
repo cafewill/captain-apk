@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">Palavras-chave de pesquisa</string>
+    <string name="message_quitback">Premir mais uma vez para sair</string>
+    <string name="message_download">Transferência...</string>
+    <string name="message_search_failed">A pesquisa não produziu nenhum resultado</string>
+    <string name="message_search_installed">Foi instalado um total de #NN# elementos</string>
+    <string name="message_permission_allowed">Configure as permissões para autorizar</string>
+    <string name="message_permission_disallowed">Sem permissões, não será possível fazer a transferência</string>
+    <string name="message_speech_not_supported">Seu dispositivo não suporta entrada de fala</string>
+</resources>

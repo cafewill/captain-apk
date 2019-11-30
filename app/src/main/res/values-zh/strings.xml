@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">搜索词</string>
+    <string name="message_quitback">再按一次退出</string>
+    <string name="message_download">下载...</string>
+    <string name="message_search_failed">搜索没有任何结果</string>
+    <string name="message_search_installed">总共安装了#NN#个组件</string>
+    <string name="message_permission_allowed">设置权限以允许</string>
+    <string name="message_permission_disallowed">未经授权，将无法下载</string>
+    <string name="message_speech_not_supported">您的设备不支持语音输入</string>
+</resources>

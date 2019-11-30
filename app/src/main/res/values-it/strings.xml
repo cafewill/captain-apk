@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">Parole chiave di ricerca</string>
+    <string name="message_quitback">Premere ancora una volta per uscire</string>
+    <string name="message_download">Download...</string>
+    <string name="message_search_failed">La ricerca non ha prodotto alcun risultato</string>
+    <string name="message_search_installed">Sono stati installati un totale di #NN# elementi</string>
+    <string name="message_permission_allowed">Imposta le autorizzazioni per consentire</string>
+    <string name="message_permission_disallowed">Download is not possible without access</string>
+    <string name="message_speech_not_supported">Senza autorizzazione, non sarà possibile eseguire il download</string>
+</resources>

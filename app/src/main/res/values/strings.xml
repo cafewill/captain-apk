@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <string name="label_info" translatable="false">Info</string>
+    <string name="label_meta" translatable="false">Meta</string>
+    <string name="label_save" translatable="false">Save</string>
+    <!-- message -->
+    <string name="message_search">Search keywords</string>
+    <string name="message_quitback">Press once more to exit</string>
+    <string name="message_download">Download...</string>
+    <string name="message_search_failed">Your search had no resultsd</string>
+    <string name="message_search_installed">A total of #NN# items were installed</string>
+    <string name="message_permission_allowed">Set permissions to allow</string>
+    <string name="message_permission_disallowed">It is impossible to download without authorization.</string>
+    <string name="message_speech_not_supported">Your device doesn\'t support speech input</string>
+</resources>

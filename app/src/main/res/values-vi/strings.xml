@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">Tìm kiếm từ khoá</string>
+    <string name="message_quitback">Nhấn một lần nữa để thoát</string>
+    <string name="message_download">Tải xuống...</string>
+    <string name="message_search_failed">Tìm kiếm không có kết quả</string>
+    <string name="message_search_installed">Tổng cộng có #NN# mục đã được cài đặt</string>
+    <string name="message_permission_allowed">Đặt quyền để cho phép</string>
+    <string name="message_permission_disallowed">Nếu không có sự cho phép, ứng dụng sẽ không thể tải xuống</string>
+    <string name="message_speech_not_supported">Thiết bị của bạn không hỗ trợ nhập liệu bằng giọng nói</string>
+</resources>

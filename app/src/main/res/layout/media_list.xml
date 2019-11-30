@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <ImageView
+        android:id="@+id/media_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center|left"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"/>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/media_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="@color/media_name" />
+            <TextView
+                android:id="@+id/media_bundle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text=""
+                android:textSize="12dp"
+                android:textColor="@color/media_bundle" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/media_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:lines="1"
+                android:text=""
+                android:textSize="10dp"
+                android:textColor="@color/media_size" />
+            <TextView
+                android:id="@+id/media_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:lines="1"
+                android:text=""
+                android:textSize="10dp"
+                android:textColor="@color/media_category" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:paddingRight="0dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center|right"
+        android:layout_marginRight="12dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/media_info"
+            android:layout_width="38dp"
+            android:layout_height="32dp"
+            android:background="@drawable/button_info_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/label_info"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/media_oval_button_text"
+            android:textSize="10sp" />
+        <Button
+            android:id="@+id/media_save"
+            android:layout_width="38dp"
+            android:layout_height="32dp"
+            android:background="@drawable/button_save_background"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/label_save"
+            android:textColor="@color/media_oval_button_text"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

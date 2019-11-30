@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/media_toolbar"
+    android:focusableInTouchMode="true" >
+    <EditText
+        android:id="@+id/search_text"
+        android:hint="@string/message_search"
+        android:gravity="center"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_text_background"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/search_text"
+        android:textColorHint="@color/search_hint"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:selectAllOnFocus="true" />
+</RelativeLayout>
+

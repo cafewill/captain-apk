@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">캡틴 APK</string>
+    <!-- message -->
+    <string name="message_search">검색하세요</string>
+    <string name="message_quitback">한번 더 누르면 종료합니다</string>
+    <string name="message_download">다운로드...</string>
+    <string name="message_search_failed">검색 결과가 없습니다</string>
+    <string name="message_search_installed">총 #NN# 개가 설치되었습니다</string>
+    <string name="message_permission_allowed">권한을 허용 설정합니다</string>
+    <string name="message_permission_disallowed">권한을 불허용시 다운로드 등이 불가합니다</string>
+    <string name="message_speech_not_supported">기기가 음성 입력을 지원하지 않습니다</string>
+</resources>

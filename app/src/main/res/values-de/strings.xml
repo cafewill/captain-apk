@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">Keyword-Recherche</string>
+    <string name="message_quitback">Zum Verlassen erneut drücken</string>
+    <string name="message_download">Herunterladen...</string>
+    <string name="message_search_failed">Die Suche hat keine Treffer ergeben.</string>
+    <string name="message_search_installed">Insgesamt wurden #NN# Artikel installiert</string>
+    <string name="message_permission_allowed">Festlegen der zuzulassenden Berechtigungen</string>
+    <string name="message_permission_disallowed">Ohne Autorisierung ist ein Download nicht möglich</string>
+    <string name="message_speech_not_supported">Ihr Gerät unterstützt keine Spracheingabe</string>
+</resources>

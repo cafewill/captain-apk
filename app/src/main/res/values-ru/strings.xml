@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Captain APK</string>
+    <!-- message -->
+    <string name="message_search">Поисковое слово</string>
+    <string name="message_quitback">Нажмите еще раз, чтобы выйти</string>
+    <string name="message_download">Загрузка...</string>
+    <string name="message_search_failed">Нет результатов поиска</string>
+    <string name="message_search_installed">Всего установлено #NN#</string>
+    <string name="message_permission_allowed">Настройте предоставление разрешения</string>
+    <string name="message_permission_disallowed">Если вы запретите разрешение, загрузка невозможна</string>
+    <string name="message_speech_not_supported">Ваше устройство не поддерживает речевой ввод</string>
+</resources>
