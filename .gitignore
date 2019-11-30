@@ -3,13 +3,13 @@
 .DS_Store
 .externalNativeBuild
 
+/.gradle
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-/.gradle
 
 /build
 /captures
