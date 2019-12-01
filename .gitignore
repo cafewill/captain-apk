@@ -1,7 +1,8 @@
-*.iml
 .cxx
 .DS_Store
 .externalNativeBuild
+
+*.iml
 
 /.gradle
 /.idea/caches
