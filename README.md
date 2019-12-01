@@ -18,3 +18,4 @@ This is an Android APK, DEX and resources extractor! (lite version)
 * https://html5up.net 
 * https://github.com/hsiafan/apk-parser 
 * https://github.com/jaredrummler/APKParser 
+* https://github.com/TeamAmaze/AmazeFileManager
