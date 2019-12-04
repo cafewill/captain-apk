@@ -57,8 +57,6 @@ import org.apache.commons.io.FileUtils;
 
 public class MainActivity extends AppCompatActivity
 {
-    private AlloData data;
-
     private ListView mediaListView;
     private MediaAdapter mediaAdapter;
     private SwipeRefreshLayout swipeLayout;
@@ -284,7 +282,7 @@ public class MainActivity extends AppCompatActivity
         if (null != mediaAdapter) mediaAdapter.notifyDataSetChanged ();
         if (null != swipeLayout) swipeLayout.setRefreshing (true);
 
-        data = new AlloData ();
+        AlloData data = new AlloData ();
         data.setListener (new AlloData.Listener ()
         {
             public void onLoaded (HashMap <String, Media> medias)
