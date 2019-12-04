@@ -506,7 +506,7 @@ public class MainActivity extends AppCompatActivity
 
                 Toast.makeText (getApplicationContext (), getString (R.string.message_download) + " " + saveAs , Toast.LENGTH_SHORT).show ();
 
-                new SaveAsyncTask ().executeOnExecutor (AsyncTask.THREAD_POOL_EXECUTOR, media);
+                (new SaveAsyncTask ()).executeOnExecutor (AsyncTask.THREAD_POOL_EXECUTOR, media);
             } catch (Exception e) { e.printStackTrace (); }
         }
 
