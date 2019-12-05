@@ -514,7 +514,7 @@ public class MainActivity extends AppCompatActivity
         {
             private NotificationManager notificationManager;
             private NotificationCompat.Builder notificationBuilder;
-            private int notificationId = (int) System.currentTimeMillis ();
+            private final int notificationId = (int) System.currentTimeMillis ();
 
             @Override
             protected String doInBackground (Media... params)
