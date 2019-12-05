@@ -76,7 +76,7 @@ public class AlloData
                 Allo.i ("check package system : " + isSystemPackage (info));
                 Allo.i ("----------");
 
-                Media media = new Media();
+                Media media = new Media ();
                 media.setIcon (icon);
                 media.setName (name);
                 media.setSize (size);
