@@ -577,26 +577,23 @@ public class MainActivity extends AppCompatActivity
                                 // save to text file (no zip, because lite version)
                                 ///////////////////////
 
-                                FileOutputStream fileOS = new FileOutputStream (saveRoot + System.getProperty ("file.separator") + saveAs + "_meta.txt");
-
+                                String message = "";
                                 Enumeration <? extends ZipEntry> entries = zipFile.entries ();
-
+                                FileOutputStream fileOS = new FileOutputStream (saveRoot + System.getProperty ("file.separator") + saveAs + "_meta.txt");
                                 while (entries.hasMoreElements ())
                                 {
                                     ZipEntry entry = entries.nextElement ();
-                                    String each = entry.getName ().trim (); each = each.toLowerCase ();
+                                    String each = entry.getName (); each = each.toLowerCase ();
 
                                     if (each.startsWith (Const.RESOURCE.toLowerCase ()) || each.equals (Const.CLASSDEX.toLowerCase ()) || each.equals (Const.MANIFEST.toLowerCase ()))
                                     {
                                         count++;
                                         int inter = 1; if (10 < total) inter = (int) (total / 10);
                                         if (10 < total && (0 == (int) (count % inter))) { sendNotification (name, total, count); }
-                                        fileOS.write (("(" + count + ") " + entry.getName ().trim () + System.getProperty ("line.separator")).getBytes ());
+                                        message += "(" + count + ") " + entry.getName () + System.getProperty ("line.separator");
                                     }
                                 }
-
-                                fileOS.flush ();
-                                fileOS.close ();
+                                fileOS.write (message.getBytes ()); fileOS.flush (); fileOS.close ();
 
                                 sendNotification (name, total, total);
                             }
@@ -613,8 +610,7 @@ public class MainActivity extends AppCompatActivity
 
                 try
                 {
-                    String channelId = getApplicationContext ().getPackageName ();
-                    String channelName = getApplicationContext ().getPackageName ();
+                    String channelId = getApplicationContext ().getPackageName (); String channelName = channelId;
 
                     if (Build.VERSION_CODES.O <= Build.VERSION.SDK_INT)
                     {
