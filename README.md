@@ -19,4 +19,5 @@ This is an Android APK, DEX and resources extractor! (lite version)
 * https://github.com/apache/commons-io
 * https://github.com/hsiafan/apk-parser 
 * https://github.com/jaredrummler/APKParser 
+* https://github.com/jaredrummler/MaterialSpinner
 * https://github.com/TeamAmaze/AmazeFileManager
