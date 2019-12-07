@@ -20,7 +20,7 @@ This is an Android APK, DEX and resources extractor! (lite version)
 ![](screenshots/03.png)
 ![](screenshots/04.png)
 
-## Thanks to
+## Thanks To
 
 * https://html5up.net 
 * https://github.com/apache/commons-io
