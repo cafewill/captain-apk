@@ -13,6 +13,13 @@ This is an Android APK, DEX and resources extractor! (lite version)
 
 (why don't you check up full features, [Release on Play Store](https://play.google.com/store/apps/details?id=com.cafewill.apk))
 
+## Screenshots
+
+![](screenshots/01.png)
+![](screenshots/02.png)
+![](screenshots/03.png)
+![](screenshots/04.png)
+
 ## Thanks to
 
 * https://html5up.net 
