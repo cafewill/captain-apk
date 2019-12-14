@@ -84,7 +84,7 @@ public class AlloData
                 media.setSource (source);
                 media.setVersion (version);
                 media.setCategory (category);
-                medias.put (name.toLowerCase (), media);
+                medias.put (name.toLowerCase () + bundle.toLowerCase (), media);
             }
 
             (new Handler (Looper.getMainLooper ())).postDelayed (new Runnable ()
