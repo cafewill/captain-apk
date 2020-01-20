@@ -614,7 +614,7 @@ public class MainActivity extends AppCompatActivity
 
                     if (Build.VERSION_CODES.O <= Build.VERSION.SDK_INT)
                     {
-                        NotificationChannel channel = new NotificationChannel (channelId, channelName, NotificationManager.IMPORTANCE_DEFAULT);
+                        NotificationChannel channel = new NotificationChannel (channelId, channelName, NotificationManager.IMPORTANCE_LOW);
                         channel.setShowBadge (false);
                         notificationManager = ((NotificationManager) getSystemService (Context.NOTIFICATION_SERVICE));
                         notificationManager.createNotificationChannel (channel);
