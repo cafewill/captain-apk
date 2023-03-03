@@ -20,6 +20,12 @@ This is an Android APK, DEX and resources extractor! (lite version)
 ![](screenshots/03.png)
 ![](screenshots/04.png)
 
+## See Also
+
+* https://cafewill.com
+* https://www.popit.kr/how-it-works-captain-apk
+* https://www.popit.kr/how-to-decompile-an-android-apps
+
 ## Thanks To
 
 * https://html5up.net 
